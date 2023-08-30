@@ -1,0 +1,88 @@
+body {
+    background-color: pink;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+}
+
+.h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.contain {
+    background-color: rgb(255, 240, 220)
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
+label.left {
+    width: 30%;
+    padding-right: 4%;
+    text-align: right;
+
+}
+
+.input-field {
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.select-field {
+    height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #c0c0c0;
+    margin-left: 20px;
+
+
+}
+
+.sub-group {
+    text-align: center;
+    position: relative;
+    right: -100px;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+
+}
+
+.sub-group1 {
+    text-align: center;
+    position: relative;
+    right: -200px;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.left1 {
+    position: relative;
+    padding: 1px;
+    bottom: 20px;
+}
+
+.right1 {
+    width: 30%;
+    margin-left: 400px;
+}
+
+select {
+    width: 180px;
+    margin: 20px;
+}
+
+option {
+    min-width: 500px;
+}
